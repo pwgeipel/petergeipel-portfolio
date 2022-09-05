@@ -28,22 +28,30 @@ footer {
     background: rgb(117, 178, 117);
     height: 85px;
     padding: 10px;
-    display: flex;
-    flex-direction: column;
 }
 footer p {
    text-align: center;
+   padding: 20px;
 }
+
 
 .header-links a {
     padding-left: 80px;
 }
 
-.contact {
-    display: flex;
+.nav ul {
+    list-style: none;
+    margin: 0%;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
 }
-.contact a {
-    justify-content: space-evenly;
+
+.nav ul li {
+    list-style: none;
+    padding: 0 10px;
+    display: table-cell;
+    text-align: center;
 }
 
 .intro {
