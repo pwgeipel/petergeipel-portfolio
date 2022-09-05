@@ -1,6 +1,8 @@
 body {
     background: rgb(180, 189, 179);
     line-height: 1.2;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -54,4 +56,20 @@ footer p {
 }
 .deepdive {
     padding: 100px;
+}
+
+.work-cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.project-small-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-big img {
+    float: left;
+    width: 50px;
+    height: 100px;
 }
