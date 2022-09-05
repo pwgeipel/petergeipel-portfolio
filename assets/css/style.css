@@ -1,3 +1,23 @@
 header {
-    background-color: green;
+    background: rgb(117, 178, 117);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 85px;
+    padding: 10px;
+}
+
+
+h1 {
+    text-align: left;
+}
+
+nav {
+    display: flex;
+
+}
+
+.links {
+    padding-left: 15px;
 }
