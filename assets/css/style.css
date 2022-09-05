@@ -68,7 +68,10 @@ footer p {
     display: flex;
     flex-wrap: wrap;
 }
-
+.project-big {
+    width: 389px;
+    height: 322px;
+}
 .project-big img {
     float: left;
     width: 50px;
