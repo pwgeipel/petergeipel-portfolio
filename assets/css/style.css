@@ -1,5 +1,6 @@
 body {
     background: rgb(180, 189, 179);
+    line-height: 1.2;
 }
 
 header {
@@ -26,6 +27,7 @@ footer {
     height: 85px;
     padding: 10px;
     display: flex;
+    flex-direction: column;
 }
 footer p {
    text-align: center;
@@ -40,4 +42,16 @@ footer p {
 }
 .contact a {
     justify-content: space-evenly;
+}
+.intro {
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.works {
+    padding: 100px;
+}
+.deepdive {
+    padding: 100px;
 }
