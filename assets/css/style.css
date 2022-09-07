@@ -90,6 +90,10 @@ footer p {
     padding: 10px;
 }
 
+.project-small-card {
+    height: 200px;
+    width: 300px;
+}
 .project-small-block {
     display: flex;
     flex-wrap: wrap;
@@ -98,4 +102,5 @@ footer p {
 
 .project-small-card img {
     object-fit: cover;
+    overflow: hidden;
 }
