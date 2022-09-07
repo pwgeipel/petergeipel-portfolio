@@ -15,6 +15,9 @@ header {
     padding: 10px;
 }
 
+main {
+    margin: 100px;
+}
 
 h1 {
     text-align: left;
@@ -29,6 +32,7 @@ footer {
     height: 85px;
     padding: 10px;
 }
+
 footer p {
    text-align: center;
    padding: 20px;
@@ -55,17 +59,18 @@ footer p {
 }
 
 .intro {
-    padding: 100px;
+    /* padding: 100px; */
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
-.works {
+/* .works {
     padding: 100px;
 }
 .deepdive {
     padding: 100px;
-}
+} */
 
 .work-cards {
     display: flex;
@@ -89,4 +94,8 @@ footer p {
     display: flex;
     flex-wrap: wrap;
     width: 26%;
+}
+
+.project-small-card img {
+    object-fit: cover;
 }
