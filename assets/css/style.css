@@ -82,14 +82,15 @@ footer p {
 
 
 .project-big {
-    width: 800px;
-    height: 540px;
+    width: 850px;
+    height: 525px;
     overflow: hidden;
 }
 .project-big img {
     display: block;
-    object-fit: cover;
+    object-fit: contain;
     padding: 10px;
+    object-position: 25% 25%;
 }
 
 .project-small-card {
