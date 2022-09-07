@@ -77,14 +77,14 @@ footer p {
 
 
 .project-big {
-    width: 389px;
+    width: 375px;
     height: 322px;
 }
 .project-big img {
-    float: left;
-    width: 50px;
-    height: 100px;
+    object-fit: cover;
+    padding: 10px;
 }
+
 .project-small-block {
     display: flex;
     flex-wrap: wrap;
