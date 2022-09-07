@@ -82,22 +82,24 @@ footer p {
 
 
 .project-big {
-    width: 375px;
-    height: 322px;
+    width: 800px;
+    height: 540px;
+    overflow: hidden;
 }
 .project-big img {
+    display: block;
     object-fit: cover;
     padding: 10px;
 }
 
 .project-small-card {
-    height: 200px;
-    width: 300px;
+    height: auto;
+    width: auto;
 }
 .project-small-block {
     display: flex;
     flex-wrap: wrap;
-    width: 26%;
+    /* width: 26%; */
 }
 
 .project-small-card img {
