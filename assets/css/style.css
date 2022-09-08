@@ -93,11 +93,11 @@ footer p {
 .project-big img {
     display: block;
     object-fit: contain;
-    width: 300px;
+    width: 96%;
     height: 300px;
     background: red;
-    
     padding: 10px;
+    margin: auto;
     /* object-position: 25% 25%; */
 }
 
