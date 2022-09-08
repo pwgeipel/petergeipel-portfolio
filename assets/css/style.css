@@ -77,8 +77,8 @@ footer p {
 } */
 
 .work-cards {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
 }
 
 
@@ -86,7 +86,7 @@ footer p {
 
 
 .project-big {
-    width: 850px;
+    width: 1000px;
     height: 525px;
     overflow: hidden;
 }
