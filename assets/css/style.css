@@ -86,14 +86,14 @@ footer p {
 
 
 .project-big {
-    width: 1000px;
-    height: 525px;
+    width: 100%;
+    height: 300px;
     overflow: hidden;
 }
 .project-big img {
     display: block;
     object-fit: contain;
-    width: 96%;
+    width: 100%;
     height: 300px;
     background: red;
     padding: 10px;
@@ -103,7 +103,7 @@ footer p {
 
 .project-small-card {
     height: auto;
-    width: auto;
+    width: 25%;
 }
 #project-small-block {
     display: flex;
@@ -113,6 +113,8 @@ footer p {
 
 .project-small-card img {
     object-fit: cover;
+    width: 100%;
+    height: 250px;
     overflow: hidden;
 }
 
