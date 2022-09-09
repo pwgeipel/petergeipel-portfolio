@@ -10,7 +10,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    /* align-items: flex-end; */
     height: 85px;
     padding: 10px;
 }
@@ -24,6 +24,8 @@ h1 {
 }
 
 nav {
+    background-color: lime;
+    color: black;
     display: flex;
     gap: 80px;
 
@@ -56,7 +58,6 @@ footer p {
 }
 
 .nav ul li {
-    list-style: none;
     padding: 0 10px;
     display: table-cell;
     text-align: center;
@@ -133,12 +134,16 @@ footer p {
     .project-big {
         height: 45vw;
     }
+    
 }
 
 @media (max-width: 480px) {
     .project-small-card {
         width: 100%
         
+    }
+    nav, header {
+        flex-direction: column;
     }
     #project-small-block {
         padding-left: 0em;
