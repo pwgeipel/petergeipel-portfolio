@@ -69,10 +69,12 @@ footer p {
     justify-content: center;
 }
 
-/* .works {
-    padding: 100px;
+.works {
+    /* display: flex;
+    align-items: stretch;
+    flex-wrap: wrap; */
 }
-.deepdive {
+/* .deepdive {
     padding: 100px;
 } */
 
@@ -110,6 +112,7 @@ footer p {
 #project-small-block {
     display: flex;
     flex-wrap: wrap;
+    align-items: stretch;
     /* width: 26%; */
 }
 
@@ -120,8 +123,12 @@ footer p {
     overflow: hidden;
 }
 
-@media screen (max-width: 768px) {
+@media only screen (max-width: 768px) {
+    .project-small-card {
+        width: 50%;
+    }
     header {
         display: block;
+    }
     }
 }
