@@ -13,7 +13,7 @@ header {
     justify-content: space-between;
     align-items: flex-end;
     height: auto;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 main {
@@ -21,7 +21,7 @@ main {
 }
 
 h1 {
-    padding-top: 50px;
+    padding: 50px 0px 10px 10px;
     /* text-align: left; */
 }
 
@@ -32,6 +32,13 @@ nav {
     justify-content: space-between;
     /* gap: 80px; */
 
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 10px 30px;
 }
 footer {
     background: rgb(117, 178, 117);
@@ -50,7 +57,7 @@ footer p {
     flex-direction: column;
 }
 .header-links {
-    gap: 6em;
+    /* gap: 6em; */
 }
 
 .nav ul {
@@ -140,9 +147,9 @@ footer p {
     }
     header {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-    
-    
 }
 
 @media (max-width: 480px) {
