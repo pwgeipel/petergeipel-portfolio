@@ -113,8 +113,8 @@ footer p {
     /* margin: 10px; */
 }
 .project-big img {
-    display: block;
-    object-fit: contain;
+    /* display: block; */
+    object-fit: cover;
     width: 100%;
     height: auto;
     /* background: red; */
