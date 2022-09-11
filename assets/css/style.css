@@ -135,14 +135,28 @@ footer p {
     width: 25%;
     padding: 10px;
     justify-content: space-around;
+    /* display: flex;
+    flex-direction: column;
+    position: absolute; */
 }
 
-
+.bigprojecttitle {
+    background: #f44336;
+    position: relative;
+    margin-top: 0px;
+}
 .project-small-card img {
     object-fit: cover;
     width: 85%;
     height: 26em;
     overflow: hidden;
+}
+
+.project-title-card {
+    position: relative;
+    margin-top: -40px;
+    background: #f44336;
+    width: 130px;
 }
 
 @media (max-width: 768px) {
