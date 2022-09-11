@@ -140,7 +140,7 @@ footer p {
     position: absolute; */
 }
 
-.bigprojecttitle {
+#bigprojecttitle {
     background: #f44336;
     position: relative;
     margin-top: 0px;
