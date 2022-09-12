@@ -3,10 +3,12 @@
     --background-color: #d5d7c4;
     --link-color: #bac895;
     --head-font: 'Righteous', cursive;
+/* This sets the colors and fonts for the page. */
 }
 
 html {
     scroll-behavior: smooth;
+    /* This creates a smooth scroll for the links */
 }
 
 body {
@@ -15,13 +17,15 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    /* flex-direction: column aligns the page elements vertically */
 }
 
 header {
     background: var(--header-color);
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
+    /* This spreads the elements horizontally */
     justify-content: space-between;
     align-items: flex-end;
     height: auto;
