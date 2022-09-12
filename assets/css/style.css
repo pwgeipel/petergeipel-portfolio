@@ -3,14 +3,14 @@ html {
 }
 
 body {
-    background: rgb(180, 189, 179);
+    background: #d5d7c4;
     line-height: 1.2;
     display: flex;
     flex-direction: column;
 }
 
 header {
-    background: rgb(117, 178, 117);
+    background: #66694d;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -26,7 +26,12 @@ main {
 
 h1 {
     padding: 50px 0px 10px 10px;
+    color: #bac895;
     /* text-align: left; */
+}
+
+h2 {
+    font-size: 150%;
 }
 
 nav {
@@ -40,12 +45,12 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: #bac895;
     text-align: center;
     padding: 10px 30px;
 }
 footer {
-    background: rgb(40, 80, 10);
+    background: #66694d;
     height: 100px;
     padding: 10px;
 }
@@ -53,12 +58,25 @@ footer {
 footer p {
    text-align: center;
    padding: 20px;
+   color: #bac895;
+   
+}
+.container {
+    background-color: #ffffff;
+    border-radius: 50px 10px;
+    padding: 20px;
 }
 
+.section-header {
+    position: absolute;
+    margin-top: -50px;
+    color: #66694d;
+}
 #works {
-    padding: 300px 0px;
+    margin: 300px 0px;
     display: flex;
     flex-direction: column;
+
 }
 .header-links {
     /* gap: 6em; */
@@ -70,12 +88,20 @@ footer p {
     display: table;
     table-layout: fixed;
     width: 100%;
+    color: #bac895;
+    
 }
+a {
+    color: #bac895;
+    text-decoration: none;
 
+}
 .nav ul li {
     padding: 0 10px;
     display: table-cell;
     text-align: center;
+    color: #bac895;
+    /* text-decoration: none; */
 }
 
 #intro {
@@ -148,7 +174,7 @@ footer p {
 }
 
 #bigprojecttitle {
-    background: #f44336;
+    background: #8da54f;
     position: absolute;
     margin-top: 263px;
     margin-left: 10px;
@@ -166,7 +192,7 @@ footer p {
 .project-title-card {
     position: relative;
     margin-top: -40px;
-    background: #f44336;
+    background: #8da54f;
     width: 130px;
 }
 
