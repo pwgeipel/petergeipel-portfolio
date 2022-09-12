@@ -1,6 +1,8 @@
 :root {
     --header-color: #66694d;
-    
+    --background-color: #d5d7c4;
+    --link-color: #bac895;
+    --head-font: 'Righteous', cursive;
 }
 
 html {
@@ -8,7 +10,7 @@ html {
 }
 
 body {
-    background: #d5d7c4;
+    background: var(--background-color);
     line-height: 1.2;
     display: flex;
     flex-direction: column;
@@ -23,7 +25,6 @@ header {
     justify-content: space-between;
     align-items: flex-end;
     height: auto;
-    /* padding: 10px; */
 }
 
 main {
@@ -32,40 +33,36 @@ main {
 
 h1 {
     padding: 50px 0px 10px 10px;
-    color: #bac895;
-    font-family: 'Righteous', cursive;
-    /* text-align: left; */
+    color: var(--link-color);
+    font-family: var(--head-font);
 }
 
 h2 {
     font-size: 150%;
-    font-family: 'Righteous', cursive;
+    font-family: var(--head-font);
 }
 h3 {
-    font-family: 'Righteous', cursive;
+    font-family: var(--head-font);
     font-size: 125%;
 }
 p {
     font-size: 125%;
 }
 nav {
-    /* background-color: lime; */
     color: black;
     display: flex;
     justify-content: space-between;
-    /* gap: 80px; */
-
 }
 
 nav a {
     text-decoration: none;
-    color: #bac895;
+    color: var(--link-color);
     text-align: center;
     padding: 10px 30px;
-    font-family: 'Righteous', cursive;
+    font-family: var(--head-font);
 }
 footer {
-    background: #66694d;
+    background: var(--header-color);
     height: 100px;
     padding: 10px;
 }
@@ -73,7 +70,7 @@ footer {
 footer p {
    text-align: center;
    padding: 20px;
-   color: #bac895;
+   color: var(--link-color);
    
 }
 .container {
@@ -87,42 +84,34 @@ footer p {
 .section-header {
     position: absolute;
     margin-top: -50px;
-    color: #66694d;
+    color: var(--header-color);
 }
 #works {
     margin: 300px 0px;
     display: flex;
     flex-direction: column;
-
-}
-.header-links {
-    /* gap: 6em; */
 }
 
 .nav ul {
     list-style: none;
-    margin: 0%;
     display: table;
     table-layout: fixed;
     width: 100%;
-    color: #bac895;
-    
-}
-a {
-    color: #bac895;
-    text-decoration: none;
+    color: var(--link-color);
+    }
 
+    a {
+    color: var(--link-color);
+    text-decoration: none;
 }
+
 .nav ul li {
     padding: 0 10px;
     display: table-cell;
     text-align: center;
-    color: #bac895;
-    /* text-decoration: none; */
 }
 
 #intro {
-    /* padding: 100px; */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -135,23 +124,6 @@ a {
 .intro-text {
     margin: 10px;
 }
-.works {
-    /* display: flex;
-    align-items: stretch;
-    flex-wrap: wrap; */
-}
-/* .deepdive {
-    padding: 100px;
-} */
-
-.work-cards {
-    /* display: flex;
-    flex-direction: row; */
-}
-
-
-
-
 
 .project-big {
     width: 100%;
@@ -159,36 +131,25 @@ a {
     display: flex;
     flex-direction: column;
     position: relative;
-    /* overflow: hidden; */
-    /* margin: 10px; */
 }
 .project-big img {
-    /* display: block; */
     object-fit: cover;
     width: 100%;
     height: 300px;
-    /* background: red; */
     padding: 10px;
     border-radius: 20px;
-    /* margin: auto; */
-    /* object-position: 25% 25%; */
 }
 #project-small-block {
     display: flex;
     flex-wrap: wrap;
     padding-left: 2em;
     margin-top: 10px;
-    /* align-items: stretch; */
-    /* width: 26%; */
 }
 .project-small-card {
     height: auto;
     width: 25%;
     padding: 10px;
     justify-content: space-around;
-    /* display: flex;
-    flex-direction: column;
-    position: absolute; */
 }
 
 #bigprojecttitle {
@@ -197,7 +158,6 @@ a {
     margin-top: -50px;
     margin-left: 10px;
     color: black;
-    /* margin: 253px, 0, 0, 10px; */
     width: 100px;
     padding: 2px;
 }
@@ -219,9 +179,9 @@ a {
     padding: 2px;
 }
 
-.project-title-card:hover {
-    background-color: #66694d;
-    color: #d5d7c4;
+#bigprojecttitle:hover, .project-title-card:hover {
+    background-color: var(--header-color);
+    color: var(--background-color);
     width: 150px;
     text-align: center;
     transition: 0.3s;
@@ -231,9 +191,7 @@ a {
     .project-small-card {
         width: 50%;
     }
-    /* .project-big {
-        height: 45vw;
-    } */
+
     header {
         flex-direction: column;
         justify-content: center;
