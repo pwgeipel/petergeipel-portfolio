@@ -33,10 +33,12 @@ header {
 
 main {
     margin: 100px 7vw;
+    /* Creates a margin around the elements between the header and footer */
 }
 
 h1 {
-    padding: 50px 0px 10px 10px;
+    padding: 50px 0px 10px 10px; 
+    /* This positions and styles the h1 element */
     color: var(--link-color);
     font-family: var(--head-font);
 }
@@ -53,12 +55,12 @@ p {
     font-size: 125%;
 }
 nav {
-    color: black;
     display: flex;
     justify-content: space-between;
 }
 
 nav a {
+    /* This positions the nav links, removes the underline, and assigns color and font */
     text-decoration: none;
     color: var(--link-color);
     text-align: center;
@@ -78,12 +80,14 @@ footer p {
    
 }
 .container {
+    /* Establishes color and shape of container */
     background-color: #ffffff;
     border-radius: 50px 10px;
     padding: 20px;
 }
 #geipel {
     color: #8da54f;
+    /* Color for the span in the title */
 }    
 .section-header {
     position: absolute;
@@ -94,6 +98,7 @@ footer p {
     margin: 300px 0px;
     display: flex;
     flex-direction: column;
+    /* Sets this section in a column with wide top/bottom margins */
 }
 
 .nav ul {
@@ -124,6 +129,7 @@ footer p {
 .heroimagecontainer img {
     border-radius: 50%;
     margin: 10px;
+    /* This creates a picture with a round frame */
 }
 .intro-text {
     margin: 10px;
@@ -183,7 +189,7 @@ footer p {
     padding: 2px;
 }
 
-#bigprojecttitle:hover, .project-title-card:hover {
+.project-big:hover #bigprojecttitle, .project-small-card:hover .project-title-card{
     background-color: var(--header-color);
     color: var(--background-color);
     width: 150px;
