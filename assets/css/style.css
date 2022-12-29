@@ -173,7 +173,7 @@ footer p {
     margin-top: -50px;
     margin-left: 10px;
     color: black;
-    width: 100px;
+    width: 150px;
     padding: 2px;
 }
 /* This keeps the titlecard in constant position to the bottom of the image. */
@@ -191,16 +191,24 @@ footer p {
     position: relative;
     margin-top: -50px;
     background: #8da54f;
-    width: 100px;
+    width: 110px;
     color: black;
     padding: 2px;
 }
 /* This keeps the titlecard in constant position to the bottom of the image. */
 
-.project-big:hover #bigprojecttitle, .project-small-card:hover .project-title-card{
+.project-small-card:hover .project-title-card{
     background-color: var(--header-color);
     color: var(--background-color);
     width: 150px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.project-big:hover #bigprojecttitle{
+    background-color: var(--header-color);
+    color: var(--background-color);
+    width: 180px;
     text-align: center;
     transition: 0.3s;
 }
